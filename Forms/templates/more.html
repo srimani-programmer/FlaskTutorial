@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    More Page
+{% endblock %}
+
+{% block body %}
+    <p>
+        More Content is Getting Ready
+    </p>
+    <a href="{{url_for('home')}}">Home</a><br>
+    <a href=" {{url_for('special')}} ">Special</a>
+{% endblock %}
